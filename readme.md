@@ -1,4 +1,4 @@
-# botframework-template-vs-for-mac
+# botframework-template-vs-for-mac (unofficial)
 
 Bot Framework template app you can build and run in VS for Mac
 
@@ -9,7 +9,8 @@ So you can create [C# Bots using Visual Studio for Windows](https://docs.microso
 
 > The Bot Builder SDK for .NET currently supports C#. **Visual Studio for Mac is not supported.**
 
-#### This repo enables you to build C# bots using [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
+#### This repo enables you to build C# bots using [Visual Studio for Mac.](https://www.visualstudio.com/vs/visual-studio-mac/)
+##### Disclaimer: While this repo enables you to build a C# bot in VS for Mac not all nuget packages are directly supported.
 
 ## Prerequisites
 
