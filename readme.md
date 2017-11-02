@@ -64,6 +64,10 @@ So you can create [C# Bots using Visual Studio for Windows](https://docs.microso
 
 ![](./images/bf-emulator.png)
 
+## Resources
+
+* [Create a bot with the Bot Builder SDK for .NET](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-quickstart)
+
 ## Authors
 
 * **Claudius Mbemba** - [user1m](https://github.com/user1m)
