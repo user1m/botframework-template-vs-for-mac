@@ -37,14 +37,13 @@ So you can create [C# Bots using Visual Studio for Windows](https://docs.microso
 ![](./images/restore-packages.png)
 
 ```
-4. Click on Project > Bot Application Options > Update 'Port:' to 3978
+4. Click on 'Project' > 'Bot Application Options' & Update 'Port:' to 3978
 ```
 
 ![](./images/set-port.png)
 
 ```
-5. Run solution 
-	- That will open up a webpage like the one 
+5. Run solution - That will open up a webpage like the one below
 ```
 
 ![](./images/run.png)
