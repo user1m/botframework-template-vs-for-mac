@@ -1,0 +1,40 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Bot Application</Name>
+    <Description>A project template to build a bot application for Microsoft Bot Framework</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Bot Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Bot Application.csproj" File="Bot Application.csproj" ReplaceParameters="true">
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebApiConfig.cs">WebApiConfig.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MessagesController.cs">MessagesController.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="default.htm">default.htm</ProjectItem>
+      <Folder Name="Dialogs" TargetFolderName="Dialogs">
+        <ProjectItem ReplaceParameters="true" TargetFileName="RootDialog.cs">RootDialog.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
