@@ -1,6 +1,24 @@
 ﻿<Properties StartupConfiguration="{$GUID1$}|">
   <MonoDevelop.Ide.ItemProperties.Bot_220Application PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="Properties/AssemblyInfo.cs" Line="23" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bot Application" expanded="True">
+            <Node name="Bot Application" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AssemblyInfo.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
