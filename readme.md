@@ -31,19 +31,25 @@ So you can create [C# Bots using Visual Studio for Windows](https://docs.microso
 ![](./images/csproj.png)
 
 ```
-3. Restore NuGet packages 
+3. Click on 'Project' > 'Restore NuGet packages'
 ```
 
 ![](./images/restore-packages.png)
 
 ```
-4. Click on 'Project' > 'Bot Application Options' & Update 'Port:' to 3978
+4. Build Solution
+```
+
+![](./images/build.png)
+
+```
+5. Click on 'Project' > 'Bot Application Options' & Update 'Port:' to 3978
 ```
 
 ![](./images/set-port.png)
 
 ```
-5. Run solution - That will open up a webpage like the one below
+6. Run solution - That will open up a webpage like the one below
 ```
 
 ![](./images/run.png)
@@ -52,7 +58,7 @@ So you can create [C# Bots using Visual Studio for Windows](https://docs.microso
 
 
 ```
-6. Connect to Bot Framework Emulator
+7. Connect to Bot Framework Emulator
 ```
 
 ![](./images/bf-emulator.png)
